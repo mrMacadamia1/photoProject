@@ -1,0 +1,50 @@
+body {
+	background: url('../images/space_cadet.jpg') no-repeat center fixed;
+	background-size: cover;
+}
+
+.prob{
+	margin: 70px 0px 50px 0px;
+   	border-radius: 200px; /* Радиус скругления */
+   	border: 3px solid black; /* Параметры рамки */
+   	box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+
+@font-face {
+	font-family: "Pacifico";
+	src: url('../fonts/Pacifico-Regular.ttf');
+
+}
+
+.trun{
+	font-family: "Pacifico";
+	font-weight: bolder;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.poems{
+	font-family: "Pacifico";
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+
+.links{
+	color: #fff;
+	margin: 20px;
+	font-size: 25px;
+	text-decoration: none;
+	
+}
+
+.icons{
+	width: 3%;
+  	height: 3%;
+  	padding: 5px;
+
+}

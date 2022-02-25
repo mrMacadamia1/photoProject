@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} 
+	Связаться со мной
+{% endblock %}
+
+{% block content %}
+<div class="px-3">
+	<h1>Связаться со мной вы можете с помощью:</h1>
+</div>
+<div class="styl-icon">
+	
+	<a rel="nofollow" class="links" href="https://instagram.com/kibireva_ph" title="Instagram" target="_blank"><img class="icons" src="{% static 'images/icons/instagram.png' %}">Ссылка на инстаграм</a>
+	<br>
+	<a rel="nofollow" class="links" href="https://facebook.com/kibireva.ph" title="Facebook" target="_blank"><img class="icons" src="{% static 'images/icons/facebook.png' %}">Ссылка на фейсбук</a>
+	<br>
+	<a rel="nofollow" class="links" href="https://api.whatsapp.com/send?phone=89263851522" title="Watsapp" target="_blank"><img class="icons" src="{% static 'images/icons/whatsapp.png' %}">Ссылка на вотсап</a>
+</div>
+<div class="styl-icon">
+	<h2 class="px-3">Так же, если Вам понравился контент, Вы можете заглянуть в мой ТикТок</h2>
+	<a rel="nofollow" class="links" href="https://vm.tiktok.com/ZSJnR5pv9/" title="TikTok" target="_blank"><img class="icons" src="{% static 'images/icons/tiktok.png' %}">Ссылка нa ТикТок</a>
+</div>
+{% endblock %}
