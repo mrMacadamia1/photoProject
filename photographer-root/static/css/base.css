@@ -1,0 +1,28 @@
+body {
+	background: #fff;
+}
+
+.prob{
+	margin: 70px 0px 50px 0px;
+   	border-radius: 200px; /* Радиус скругления */
+   	border: 3px solid black; /* Параметры рамки */
+   	box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+
+@font-face {
+	font-family: "Pacifico";
+	src: url('../Pacifico-Regular.ttf');
+
+}
+
+/*.trun{
+	font-family: "Pacifico", fantasy;
+	font-weight: bolder;
+	font-size: 15px;
+	text-align: center;
+}*/
+
+h1{
+	font-family: "Pacifico";
+}
